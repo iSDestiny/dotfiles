@@ -27,8 +27,9 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 # install fzf
 apt-get install fzf
 
-# install ranger
+# install ranger + link rc.conf
 apt-get install ranger
+ln ./rc.conf ~/.config/ranger/rc.conf
 
 # install silver-searcher
 apt-get install silversearcher-ag
